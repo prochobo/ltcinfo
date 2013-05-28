@@ -14,3 +14,10 @@ If you'd like to donate:
 
 BTC: 1J1R19Lztcw97NLWrqvhPL37vHbTDf1Ws1
 LTC: LUdqJU4uqEkLFKzHh9r3fxSnW74fKFRhEC
+
+License
+=======
+
+All material copyright 2013, prochobo
+
+All code is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
