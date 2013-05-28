@@ -10,3 +10,7 @@ deprecated in the requests module awhile ago.
 
 Change the last address in the urls to your LTC address: http://explorer.litecoin.net/address/your-address-here (the one in the script is my address).
 
+If you'd like to donate:
+
+BTC: 1J1R19Lztcw97NLWrqvhPL37vHbTDf1Ws1
+LTC: LUdqJU4uqEkLFKzHh9r3fxSnW74fKFRhEC
