@@ -37,9 +37,8 @@ def response_get(r):
 		data_list.append(data)
 
 def print_data():
-	# Inintialize and calculate stuff
+	# calculate hashrate
 	hashrate = (float(data_list[3]['hashes-per-second'])) / 1024**3
-	ltcusdtotal = (data_list[5] * data_list[4]['ticker']['last'])
 	# Print stuff, sorry it's a little messy here.
 	print '\nStats grabbed on ' + strftime("%c") + " from ltcd.info and prices from BTC-e\n"
 	print 'LTC Current difficulty: %d' % data_list[0]['current-difficulty']
