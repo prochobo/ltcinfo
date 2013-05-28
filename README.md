@@ -15,6 +15,22 @@ If you'd like to donate:
 BTC: 1J1R19Lztcw97NLWrqvhPL37vHbTDf1Ws1
 LTC: LUdqJU4uqEkLFKzHh9r3fxSnW74fKFRhEC
 
+Sample output
+=======
+
+Stats grabbed on Tue May 28 15:14:09 2013 from ltcd.info and prices from BTC-e
+
+LTC Current difficulty: 602
+
+Next difficulty: 641 (6.57%)
+
+Next difficulty change: 05-31-2013 19:45:07 - in 76.52 hours
+
+Network hashrate: 17.14 Gh/s
+
+Balance is 424.47 LTC @ 3.0234 [Vol: 263266] = 1283.32
+
+
 License
 =======
 
