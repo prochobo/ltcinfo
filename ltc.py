@@ -45,7 +45,7 @@ def print_data():
 	print 'Next difficulty: %d (%.2f%%)' % (data_list[1]['next-difficulty'], ((data_list[1]['next-difficulty']/data_list[0]['current-difficulty']) - 1) * 100)
 	print 'Next difficulty change: %s - in %.2f hours' % (strftime('%m-%d-%Y %H:%M:%S', localtime(data_list[2]['retarget-timestamp'])), data_list[2]['seconds-to-retarget'] / 3600.0)
 	print 'Network hashrate: %.2f Gh/s\n' % hashrate
-	print "Balance is %.2f LTC @ %.4f [Vol: %10s] = %.2f\n" % (data_list[5], data_list[4]['ticker']['last'], data_list[4]['ticker']['vol'], (data_list[5] * data_list[4]['ticker']['last']))
+	print "Balance is %.2f LTC @ %.4f [Vol: %d] = %.2f\n" % (data_list[5], data_list[4]['ticker']['last'], int(data_list[4]['ticker']['vol']), (data_list[5] * data_list[4]['ticker']['last']))
 
 # use grequests.get to get the response from the page, then pass
 # the url into response_get() to add the content to the data list.
